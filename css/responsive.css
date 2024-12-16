@@ -1,0 +1,179 @@
+@media screen and (max-width:768px) {
+  *{font-size: 15px;}
+  /* header */
+  header {
+    height: 60px;
+    background: #ffffff99;
+  }
+  .logo a img {
+    transform: scale(.8);
+  }
+  nav {
+    display: none;
+  }
+  .main_visual{height: 90vh; border: 1px solid #000;}
+  .video_wrap video{width: 100%; height: 100vh; }
+  .menu {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: url(../images/menu_btn.png) no-repeat 0 50%;
+    cursor: pointer;
+  }
+
+  header:hover .menu {
+    background: url(../images/menu_btn2.png);
+  }
+  .main_text strong{
+    text-wrap: nowrap;
+  }
+  .icon{width: 80%;}
+  .icon ul {flex-wrap:wrap;}
+  .icon ul li{
+    width: 33.333%;
+    flex:auto;
+  }
+  /* Expert Tec */
+  .expert_techniquer::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height:1327px;
+    background: url(../images/expert_bg.png) no-repeat / cover;
+    margin-top: -3rem;
+}
+.expert_techniquer{padding-top: 8rem; position: relative;}  
+.homeCheck .text .homeCheck_title {
+  margin:0;
+}
+.expert_techniquer .expert{
+  display: block;
+  width: 90%;
+}
+.expert_techniquer .expert li{
+  width: 90%;
+}
+.expert_techniquer .expert li:first-child{
+  margin-left: 3rem;
+}
+.expert_techniquer .expert li:last-child{
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+.expert_techniquer .title{
+  font-size: 2rem;
+  margin-left:3rem;
+}
+.homeCheck .text .homeCheck_title{
+  font-size: 2rem;margin-bottom: 5rem;
+}
+.homeCheck .text .homeCheck_title::after{
+  content: '';
+  position: absolute;
+  width: 100%; background: #fff; height: 1px;
+  bottom: -2rem; left: -1rem;
+}
+.homeCheck .text p {font-size: 1.2rem;}
+.homeCheck .text{width: 90%;}
+
+.homeCheck .img{width:90%; position: relative;}
+.expert_techniquer .subTitle{margin-left:3rem;}
+.homeCheck { display: block;}
+/* awards */
+.awards {
+  margin-top: 8rem;
+  background-color:#FFF;;
+}
+.awards_list ul li {color: #8a8a8a; font-size: 1.5rem;}
+.awards_list ul li::before{
+  border-color:  #8a8a8a};
+
+.awards .title{font-weight: 500; font-size: 5rem;}
+  /* service */
+  .service_content ul{display: none;}
+  .service {
+    padding-top: 3rem;
+  }
+  .service .service_content,
+  .expert_techniquer_inner,
+  .awards .awards_content,
+  .awards .awards_list, 
+  .news_inner, .consumers_inner{
+    width:90%;
+    margin:2rem auto;
+  }
+  .service_content ul{
+    flex-direction: column;
+  }
+  .service_content ul li:first-child,
+  .service_content ul li:last-child{
+    position: relative;
+    left: -3rem;
+  }
+  .service_content ul li{
+    margin-bottom: 2rem;
+  }
+  .service_content ul li a img{
+    width: 100%;
+    height: 100%;
+  }
+  /* awards */
+  .awards .title{
+    color: #333;
+  }
+  .awards .title{
+    font-size: 2rem;text-align: center; font-weight: 500;
+    padding:1rem 0;
+  }
+  .awards .awards_content,
+  .awards .awards_list{
+    width: 90%;
+  }
+  .awards_content ul li .text{
+  }
+
+  .awards_content ul li .awards_icon img{width: 90%; padding-left:0  1rem ;}
+  .awards .subTitle{color:#8a8a8a}
+  .awards_content ul li .text strong{font-size: 2rem;margin-bottom: 0.5rem;}
+  .awards_content ul li .text span{font-size: 1rem;}
+
+  .awards_list ul{flex-direction: column;}
+  .awards_list ul li{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  /* site_map */
+  .site_map {
+    width: 90%;
+  }
+
+  .site_map>ul {
+    border: none;
+  }
+
+  .site_map>ul>li:nth-child(3) {
+    border-left: none;
+  }
+
+  .site_map>ul>li:nth-child(2)~li {
+    border-top: 1px solid #8a8a8a;
+    padding-top: 30px;
+  }
+
+  .site_map>ul>li {
+    width: 50%;
+  }
+
+  .footer .footer_logo {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    width: 90%;
+  }
+
+  .footer address {
+    width: 100%;
+  }
+}
